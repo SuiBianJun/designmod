@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b79575-9c70-47c7-b8c1-d4819647ee44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/DFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/DefaultFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/EFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/FFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/AFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/BFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/IFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dlg/code/factory/abstractFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dlg/code/factory/factoryMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dlg/code/factory/simpleFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExcutorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExecutorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/singleton/DoubleCheckSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/singleton/StaticInnerClassSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dlg/code/proxy/cglibproxy/Middle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dlg/code/proxy/cglibproxy/Middle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dlg/code/proxy/cglibproxy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dlg/code/proxy/cglibproxy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,106 +25,42 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/Factory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/BFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/IFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExecutorA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="46">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/DFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExcutorB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/DefaultFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/factory/abstractFactory/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="46">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/factory/factoryMethod/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/EFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
               <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/FFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/AFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/BFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/CFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/Factory.java" />
         <option value="$PROJECT_DIR$/src/test/java/dlg/code/factory/simpleFactory/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/DefaultFactory.java" />
@@ -184,6 +112,11 @@
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/abstracFactory/EFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/dlg/code/factory/abstractFactory/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/dlg/code/factory/factoryMethod/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/singleton/StaticInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/singleton/DoubleCheckSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java" />
       </list>
     </option>
   </component>
@@ -233,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,40 +216,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dlg" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designmodel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dlg" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="abstracFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designmodel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dlg" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designmodel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dlg" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="delegate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designmodel" type="b2602c69:ProjectViewProjectNode" />
@@ -364,6 +263,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,31 +383,32 @@
       <option name="presentableId" value="Default" />
       <updated>1577197346899</updated>
       <workItem from="1577197349680" duration="4686000" />
-      <workItem from="1577366133313" duration="3681000" />
+      <workItem from="1577366133313" duration="4477000" />
+      <workItem from="1577609579298" duration="1846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8367000" />
+    <option name="totallyTimeSpent" value="11009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21618743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21831736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4010989" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4010989" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
@@ -524,17 +425,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/proxy/jdkproxy/cglibproxy/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/proxy/jdkproxy/BadMan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -608,16 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/factory/simpleFactory/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/factoryMethod/AFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -636,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -715,6 +588,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/singleton/DoubleCheckSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/singleton/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExecutorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExcutorB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
