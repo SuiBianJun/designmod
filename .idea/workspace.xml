@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b79575-9c70-47c7-b8c1-d4819647ee44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExcutorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExecutorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/singleton/DoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/singleton/StaticInnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClassDeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/strategy/IntegerComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/strategy/LongComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/template/DrinkTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/template/MilkTeaDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dlg/code/template/TeaDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dlg/code/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dlg/code/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dlg/code/template/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Middle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Middle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dlg/code/factory/simpleFactory/GFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dlg/code/factory/simpleFactory/GFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dlg/code/proxy/cglibproxy/Middle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dlg/code/proxy/cglibproxy/Middle.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,43 +34,36 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="381">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExecutorA.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClassDeep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExcutorB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="243">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/prototype/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-              <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -89,7 +91,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Render.java" />
         <option value="$PROJECT_DIR$/src/test/java/dlg/code/proxy/cglibproxy/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Middle.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/AFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/BFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/dlg/code/Factory/simpleFactory/Main.java" />
@@ -114,9 +115,22 @@
         <option value="$PROJECT_DIR$/src/test/java/dlg/code/factory/factoryMethod/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/singleton/StaticInnerClassSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/singleton/DoubleCheckSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/delegate/IExecutor.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Middle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/strategy/NumberComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/strategy/IntegerComparator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dlg/code/strategy/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/template/DrinkTemplateFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/template/MilkTeaDrink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/template/TeaDrink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/template/DrinkTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dlg/code/template/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClassDeep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dlg/code/prototype/Main.java" />
       </list>
     </option>
   </component>
@@ -151,7 +165,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
-    <option name="y" value="25" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -166,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,7 +231,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dlg" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designmodel" type="b2602c69:ProjectViewProjectNode" />
@@ -256,13 +271,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dlg" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -280,6 +294,7 @@
       <recent name="dlg.code.factory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dlg.code.prototype" />
       <recent name="dlg.code.factory.factoryMethod" />
       <recent name="dlg.code.proxy.simpleFactory" />
     </key>
@@ -296,13 +311,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dlg.code.proxy.cglibproxy.Main" />
+      <option name="MAIN_CLASS_NAME" value="dlg.code.template.Main" />
       <module name="designmodel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dlg.code.proxy.cglibproxy.*" />
+          <option name="PATTERN" value="dlg.code.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,11 +326,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dlg.code.Factory.simpleFactory.Main" />
+      <option name="MAIN_CLASS_NAME" value="dlg.code.prototype.Main" />
       <module name="designmodel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dlg.code.Factory.simpleFactory.*" />
+          <option name="PATTERN" value="dlg.code.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,19 +351,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dlg.code.factory.simpleFactory.Main" />
-      <module name="designmodel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dlg.code.factory.simpleFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dlg.code.factory.factoryMethod.Main" />
       <module name="designmodel" />
@@ -362,13 +364,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dlg.code.strategy.Main" />
+      <module name="designmodel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dlg.code.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -384,31 +399,33 @@
       <updated>1577197346899</updated>
       <workItem from="1577197349680" duration="4686000" />
       <workItem from="1577366133313" duration="4477000" />
-      <workItem from="1577609579298" duration="1846000" />
+      <workItem from="1577609579298" duration="3449000" />
+      <workItem from="1577886128521" duration="159000" />
+      <workItem from="1577889143606" duration="4552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11009000" />
+    <option name="totallyTimeSpent" value="17323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21831736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2226958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4010989" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2879121" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35384616" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
@@ -474,16 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Middle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/ExecutorA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -648,16 +648,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/factory/simpleFactory/GFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/proxy/cglibproxy/Middle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/delegate/Delegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/strategy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="14" selection-end-column="37" />
           <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/strategy/LongComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/strategy/IntegerComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/template/TeaDrink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/template/MilkTeaDrink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/template/DrinkTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/template/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dlg/code/prototype/PrototypeClassDeep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dlg/code/prototype/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>

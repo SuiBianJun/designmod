@@ -11,6 +11,8 @@ import java.lang.reflect.Method;
 /**
  * cglib 动态代理：
  *  通过子类继承的方式实现，子类调用方法是去调用父类的方法（被代理类的方法）
+ *
+ *  代理模式一般会在原来被代理人的执行逻辑前后增加一些操作。而委派模式不会增加操作
  */
 
 public class Middle implements MethodInterceptor {

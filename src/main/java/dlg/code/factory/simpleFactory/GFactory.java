@@ -1,7 +1,7 @@
 package dlg.code.factory.simpleFactory;
 
 /**
- * 工厂模式，关心过程
+ * 工厂模式
  * （汽车制造产）
  * 简单工厂
  * 直接根据需求返回对应的对象
